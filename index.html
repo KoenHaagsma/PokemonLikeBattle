@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Attacker</title>
+</head>
+<body>
+    <header>
+        <h1>Battle Me!</h1>
+    </header>
+    <main>
+        <div class="battle">
+            <div class="enemy">
+                <div class="enemyStats">
+                    <h7 class="enemyHP"></h7>
+                    <!-- https://stackoverflow.com/questions/20277052/how-to-make-a-health-bar Healthbar HTML -->
+                    <progress id="healthEnemy" value="50" max="50"></progress>
+                </div>
+            </div>
+            <div class="attacks">
+                <div class="WIP">
+                    <h1 id="WIPtext">Figuren moeten nog komen als ik dit verder ga uitwerken, nog niet aan toegekomen.</h1>
+                </div>
+                <button type="submit" name="reset" id="reset">Reset game</button>
+                <div class="playerContainer">
+                    <div class="statsPlayer">
+                        <h7 class="playerHP"></h7>
+                        <!-- https://stackoverflow.com/questions/20277052/how-to-make-a-health-bar Healthbar HTML -->
+                        <progress id="healthPlayer" value="50" max="50"></progress>
+                    </div>
+                    <div class="attackPlayer">
+                        <button type="submit" id="attack1" name="submit">Whip</button>
+                        <button type="submit" id="attack2" name="submit">Lash</button>
+                        <button type="submit" id="attack3" name="submit">Slash</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="conversation">
+            <p class="battleText">Have fun playing this game!</p>
+        </div>
+    </footer>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
