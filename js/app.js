@@ -43,17 +43,17 @@ resetButton.addEventListener("click", resetGame);
 
 //Event handlers
 function attackEen() {
-    preventDefault();
+    event.preventDefault();
     battle(1);
 }
 
 function attackTwee() {
-    preventDefault();
+    event.preventDefault();
     battle(2);
 }
 
 function attackDrie() {
-    preventDefault();
+    event.preventDefault();
     battle(3);
 }
 
